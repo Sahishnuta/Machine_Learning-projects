@@ -35,7 +35,7 @@ This projects aim to detect whether fraud is committed by the merchant or not us
 
 ## [Project 4: Customer Value Prediction](https://github.com/Sahishnuta/Machine_Learning-projects/tree/main/PHD_Customer_Value_Prediction)
 
-This project focuses on calculating “Customer Lifetime Value” with a proprietary formula to drive marketing decisions and customer relationship management.
+This project calculates “Customer Lifetime Value” with a proprietary formula to drive marketing decisions and customer relationship management.
 
 ## [Project 5:  Retail Demand Prediction](https://github.com/Sahishnuta/Machine_Learning-projects/tree/main/Retail_demand_Prediction)
 
@@ -43,3 +43,19 @@ This projects aim to prevent the overstocking and understocking of goods for ret
 
 ## [Project 6:  Road Traffic Severity Classification](https://github.com/Sahishnuta/Machine_Learning-projects/tree/main/Road_Traffic_Severity_Classification)
 
+This projects aim to prevent the overstocking and understocking of goods for retailers based on store information, product information and sales of the products.
+
+## [Project 7:  Site Energy Usage Intensity Prediction](https://github.com/Sahishnuta/Machine_Learning-projects/tree/main/Site_Energy_Usage_Intensity_Prediction/Data)
+
+This projects aim to prevent the overstocking and understocking of goods for retailers based on store information, product information and sales of the products.
+
+## [Project 8:  Wild BlueBerry Yield Production](https://github.com/Sahishnuta/Machine_Learning-projects/tree/main/Wild%20Blueberry%20Yield%20Production)
+
+This projects aim to prevent the overstocking and understocking of goods for retailers based on store information, product information and sales of the products.
+---
+
+## Contact Information
+ 
+If you have any questions, feedback, or collaboration opportunities, please feel free to reach out to me. You can contact me via email at [sahishnutaatosh@gmail.com](mailto:isahishnutaatosh@gmail.com) or connect with me on LinkedIn at [Sahishnuta Tosh]](https://www.linkedin.com/in/sahishnuta-tosh/)
+
+Thank you for visiting my Machine Learning Portfolio! I hope you find my projects informative and insightful.
