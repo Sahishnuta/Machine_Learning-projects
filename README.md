@@ -52,10 +52,11 @@ This projects aim to prevent the overstocking and understocking of goods for ret
 ## [Project 8:  Wild BlueBerry Yield Production](https://github.com/Sahishnuta/Machine_Learning-projects/tree/main/Wild%20Blueberry%20Yield%20Production)
 
 This projects aim to prevent the overstocking and understocking of goods for retailers based on store information, product information and sales of the products.
+
 ---
 
 ## Contact Information
  
-If you have any questions, feedback, or collaboration opportunities, please feel free to reach out to me. You can contact me via email at [sahishnutaatosh@gmail.com](mailto:isahishnutaatosh@gmail.com) or connect with me on LinkedIn at [Sahishnuta Tosh]](https://www.linkedin.com/in/sahishnuta-tosh/)
+If you have any questions, feedback, or collaboration opportunities, please feel free to reach out to me. You can contact me via email at [sahishnutaatosh@gmail.com](mailto:isahishnutaatosh@gmail.com) or connect with me on LinkedIn at [Sahishnuta Tosh](https://www.linkedin.com/in/sahishnuta-tosh/)
 
 Thank you for visiting my Machine Learning Portfolio! I hope you find my projects informative and insightful.
