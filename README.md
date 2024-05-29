@@ -45,7 +45,7 @@ This projects aim to prevent the overstocking and understocking of goods for ret
 
 This projects aim to prevent the overstocking and understocking of goods for retailers based on store information, product information and sales of the products.
 
-## [Project 7:  Site Energy Usage Intensity Prediction](https://github.com/Sahishnuta/Machine_Learning-projects/tree/main/Site_Energy_Usage_Intensity_Prediction/Data)
+## [Project 7:  Site Energy Usage Intensity Prediction](https://github.com/Sahishnuta/Machine_Learning-projects/tree/main/Site_Energy_Usage_Intensity_Prediction)
 
 This projects aim to prevent the overstocking and understocking of goods for retailers based on store information, product information and sales of the products.
 
