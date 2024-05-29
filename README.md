@@ -1,4 +1,4 @@
-# Machine-Learning-projects
+# Machine Learning Projects
 
 Welcome to my Machine Learning Portfolio! This repository showcases a collection of machine learning projects in various domains, demonstrating my skills and expertise as a data scientist.
 
