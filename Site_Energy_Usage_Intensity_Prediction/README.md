@@ -1,6 +1,14 @@
-# Site Energy Usage Intensity Prediction
+## Problem Statement
 
-This project aims to predict the Site EUI for each row, given the characteristics of the building and the weather data for the location of the building.
+**Site Energy Usage Intensity (EUI) Prediction**
+
+The project aims to develop a machine learning model to predict the **Site Energy Usage Intensity (EUI)** for buildings based on various physical, operational, and environmental characteristics. Site EUI represents the total energy consumed by a building per square foot per year, making it a key metric for evaluating building energy efficiency.
+
+### Key Objectives:
+1. **Predictive Modeling**: Build regression models to accurately estimate Site EUI for buildings
+2. **Feature Analysis**: Identify the most influential factors affecting energy consumption
+3. **Energy Efficiency Insights**: Provide actionable insights for improving building energy performance
+4. **Model Comparison**: Evaluate multiple machine learning algorithms to find the best performer
 
 ## Dataset
 
@@ -10,9 +18,52 @@ for the location of the building (e.g. annual average temperature, annual total 
 the given year, measured as Site Energy Usage Intensity (Site EUI). Each row in the data corresponds to the a single building observed in a given year. 
 Your task is to predict the Site EUI for each row, given the characteristics of the building and the weather data for the location of the building.
 
+## Data Characteristics
 
-## Problem Statement
+The dataset includes:
+- **Target Variable**: `site_eui` (Site Energy Usage Intensity)
+- **Features**: Various building attributes including:
+  - Physical characteristics (size, age, type)
+  - Weather and climate data
+  - Energy sources and systems
+  - Operational parameters
+  - Geographical information
 
-You are provided with two datasets: (1) the train_dataset where the observed values of the Site EUI for each row are provided and (2) the x_test dataset the observed values of the Site EUI for each row are removed and provided separately in y_test. Your task is to predict the Site EUI for each row (using the complete training dataset), given the characteristics of the building and the weather data for the location of the building. Use the test sets for validation and testing. 
-The target variable is **site_eui** and the evaluation metric is **RMSE** score.
+## Technical Approach
 
+### Data Preprocessing:
+- Handling missing values and outliers
+- Feature engineering and transformation
+- Data normalization/scaling
+- Train-test splitting
+
+### Models Implemented:
+1. **Linear Regression** (baseline)
+2. **Random Forest Regressor**
+3. **Gradient Boosting Regressor**
+4. **XGBoost Regressor**
+5. **Support Vector Regressor**
+6. **Neural Networks**
+
+### Evaluation Metrics:
+- Mean Absolute Error (MAE)
+- Mean Squared Error (MSE)
+- R-squared Score
+- Root Mean Squared Error (RMSE)
+
+## Business Impact
+
+This solution helps:
+- **Building Owners**: Identify energy inefficiencies and optimization opportunities
+- **Energy Managers**: Prioritize retrofit and improvement projects
+- **Sustainability Teams**: Track and improve environmental performance
+- **Policy Makers**: Develop energy efficiency standards and incentives
+
+## Challenges Addressed
+
+1. **Complex Feature Relationships**: Multiple interacting factors affect energy consumption
+2. **Data Quality**: Handling missing values and inconsistent data
+3. **Non-linearity**: Energy patterns don't always follow linear relationships
+4. **Generalization**: Creating models that work across different building types and locations
+
+The project demonstrates a complete machine learning pipeline from data exploration to model deployment, providing a robust framework for building energy efficiency analysis.
