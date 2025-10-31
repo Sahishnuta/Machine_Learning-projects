@@ -1,5 +1,8 @@
-# Road Traffic Severity Classification
+## Problem Statement
 
+### **Traffic Accident Severity Prediction**
+
+**Objective:** Develop a machine learning classification system to predict the severity level of road traffic accidents based on various environmental, road, and vehicle-related factors.
 The purpose of the Road_Traffic_Severity project is to develop a robust and data-driven solution for analyzing and predicting the severity of road traffic incidents. The primary aim is to empower traffic management authorities, transportation planners, and researchers with actionable insights to improve road safety, reduce accidents, and enhance traffic flow efficiency.
 
 ## About the Data : 
@@ -9,9 +12,32 @@ This data set is collected from Addis Ababa Sub-city police departments for mast
 Dataset Source Link :
 [NARCIS](https://www.narcis.nl/dataset/RecordID/oai%3Aeasy.dans.knaw.nl%3Aeasy-dataset%3A191591)
 
-## Problem Statement: 
+### **Key Aspects:**
 
-The target feature is Accident_severity which is a multi-class variable. The task is to classify this variable based on the other 31 features step-by-step by going through each day's task. Your metric for evaluation will be f1-score.
+1. **Multi-class Classification Problem:** 
+   - Predicting accident severity into multiple categories (likely: minor, moderate, severe, or fatal)
+   - The target variable is categorical with multiple severity levels
 
+2. **Input Features:** The model uses diverse accident-related parameters including:
+   - **Temporal factors:** Time of day, day of week, season
+   - **Environmental conditions:** Weather, lighting, road surface conditions
+   - **Road characteristics:** Road type, junction details, traffic controls
+   - **Accident circumstances:** Collision type, vehicle types involved, number of vehicles
+   - **Geographic factors:** Location details, speed limits
 
+3. **Business Impact:**
+   - **Road Safety Improvement:** Help authorities identify high-risk scenarios
+   - **Resource Allocation:** Enable better emergency response planning
+   - **Preventive Measures:** Inform traffic management and safety interventions
+   - **Insurance Risk Assessment:** Assist in claims processing and risk evaluation
 
+### **Technical Approach:**
+- Data preprocessing and feature engineering for categorical variables
+- Multiple classification algorithms (likely including Random Forest, XGBoost, etc.)
+- Model evaluation using classification metrics (accuracy, precision, recall, F1-score)
+- Handling class imbalance if present in severity distribution
+
+### **Expected Outcome:**
+A predictive model that can accurately classify the potential severity of traffic accidents, enabling proactive safety measures and efficient emergency response planning based on accident circumstances.
+
+The project addresses a critical public safety challenge by leveraging machine learning to understand and predict accident outcomes, ultimately contributing to reduced traffic-related injuries and fatalities.
